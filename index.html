@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="image/logo.png" alt="">
+        </a>
+        <ul class="navlist">
+            <li><a href="#about">About</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-content">
+            <a href="#" class="nav-btn">Sign In</a>
+            <div class="bx bx-menu" id="menu-icon" onclick="('menu')"></div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h5 data-aos="fade-right" data-aos-duration="1400">#Coffee for hot days</h5>
+            <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">- Cold Brew</h1>
+            <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Boosts your productivity and build your mood with a glass of coffee in the morning. Coffee has a
+                stimulating effect.</p>
+            <div class="main-hero" data-aos="flip-left" data-aos-duration="1400" data-aos-delay="400">
+                <a href="#" class="btn">Order Now</a>
+                <a href="#" class="price">
+                    $16.00 | <span>Regular Price</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="image/hero.png" alt="">
+        </div>
+        <div class="icons">
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-facebook-fill"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-youtube-fill"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="800"><i class="ri-twitter-fill"></i></a>
+        </div>
+        <div class="scroll" data-aos="zoom-out-down" data-aos-duration="1400" data-aos-delay="550">
+            <a href="#about">
+                <i class="ri-scroll-to-bottom-line"></i>
+                scroll Down 
+            </a>
+        </div>
+    </section>
+    <section class="about" id="about">
+  <div class="about-img">
+    <img src="image/view-coffee-cup-with-coffee-beans.jpg" alt="">
+  </div>
+  <div class="about-text">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Brew Haven</strong>, coffee is more than a drink—it’s a ritual.  
+      We carefully source beans from the best farms worldwide and craft 
+      them into experiences that warm hearts and spark conversations.
+    </p>
+    <a href="#membership" class="btn">Discover More</a>
+  </div>
+</section>
+
+<!-- ===== Membership Section ===== -->
+<section class="membership" id="membership">
+  <div class="membership-inner">
+    <h2>Join Our Coffee Family</h2>
+    <p>
+      Enjoy handpicked beans, event invites, and special offers—crafted 
+      exclusively for our members.
+    </p>
+    <div class="perks-grid">
+      <div class="perk">
+        <i class="ri-cup-line"></i>
+        <h3>Free Welcome Drink</h3>
+      </div>
+      <div class="perk">
+        <i class="ri-star-smile-line"></i>
+        <h3>Exclusive Discounts</h3>
+      </div>
+      <div class="perk">
+        <i class="ri-calendar-event-line"></i>
+        <h3>Event Invitations</h3>
+      </div>
+      <div class="perk">
+        <i class="ri-truck-line"></i>
+        <h3>Monthly Bean Delivery</h3>
+      </div>
+    </div>
+    <a href="#" class="btn">Join Now</a>
+  </div>
+</section>
+
+<!-- ===== Events Section ===== -->
+<section class="events" id="events">
+  <h2>Upcoming Events</h2>
+  <div class="event-grid">
+    <div class="event-card">
+      <img src="image/cup-coffee-with-drawn-heart.jpg" alt="">
+      <div class="event-info">
+        <h3>Latte Art Workshop</h3>
+        <p>Learn creative latte art with our baristas.</p>
+        <span class="date">Sept 15, 2025</span>
+      </div>
+    </div>
+    <div class="event-card">
+      <img src="image/coffee-beans.jpg" alt="">
+      <div class="event-info">
+        <h3>Bean Tasting Night</h3>
+        <p>Explore rare beans from around the world.</p>
+        <span class="date">Oct 10, 2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact Section ===== -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <h2>Let’s Connect</h2>
+    <p>Have a question or just want to say hi? We’d love to hear from you!</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="footer">
+    <p>  &copy; Created by Adekanye Ayanfe 2025.</p>
+  </div>
+</footer>
+</body>
+<script src="./javascript/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
